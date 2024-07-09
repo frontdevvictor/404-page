@@ -223,5 +223,118 @@ body {
 .fog5{
     @extend %fog;
     @include fog-size(60px, 60px);
-    margin-left
+    margin-left: 50%;
+    margin-top: 30%;
+    animation: 70s ease-out float3 infinite;
+    @include fog-glow(40px, 60px);
+}
+
+.fog6{
+    @extend %fog;
+    @include fog-size(20px, 20px);
+    margin-left: 50%;
+    margin-top: -10%;
+    animation: 20s linear float infinite;
+    @include fog-glow(2px 2px);
+}
+
+.fog7{
+    @extend %fog;
+    @include fog-size(50px, 50px);
+    margin-left: 0%;
+    margin-top: 30%;
+    animation: 40s ease-out float3 infinite;
+    @include fog-glow(20px, 20px);
+}
+
+.fog8{
+    @extend %fog;
+    @include fog-size(80px, 80px);
+    margin-left: 60%;
+    margin-top: -20%;
+    animation: 40s ease-out float3 infinite;
+    @include fog-glow(20px, 20px);
+}
+
+@keyframes float{
+    0%{
+        top: 50%;
+        left: 10%;
+    }
+    25%{
+        top: 75%;
+        left: 25%;
+    }
+    50%{
+        top: 50%;
+        left: 35%;
+    }
+    75%{
+        top: 75%;
+        left: 25%;
+    }
+    100%{
+        top: 50%;
+        left: 10%;
+    }
+}
+@keyframes float2{
+    0%{
+        top: 50%;
+        left: 10%;
+    }
+    25%{
+        top: 25%;
+        left: 15%;
+    }
+    50%{
+        top: 50%;
+        left: 45%;
+    }
+    75%{
+        top: 25%;
+        left: 15%;
+    }
+    100%{
+        top: 50%;
+        left: 10%;
+    }
+}
+@keyframes float3{
+    0%{
+        top: 50%;
+        left: 25%;
+    }
+    25%{
+        top: 35%;
+        left: 0;
+    }
+    50%{
+        top: 10%;
+        left: 10%;
+    }
+    75%{
+        top: 35%;
+        left: 25%;
+    }
+}
+
+@media(max-width: 991px){
+    .container{
+        margin-top: 30vh;
+    }
+    .four0four{
+        text-align: center;
+        min-width: 100%;
+        padding: 0;
+        margin: 0;
+        height: 200px;
+        font-size: 10em;
+    }
+    .not-found{
+        font-size: 1.75em;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
 }
