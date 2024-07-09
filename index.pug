@@ -1,19 +1,27 @@
-.container.col-md-8
-    .row 
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    link(href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700", rel="stylesheet")
+    link(rel="stylesheet", href="styles.css")
+    title 404 Page Not Found
+  body
+    .container.col-md-8
+      .row 
         .four0four.col-md-4.col-sm-12.offset-md-2 
-        span.off 4
-        span.flicker 0 
-        span.flicker 4
+          span.off 4
+          span.flicker 0 
+          span.flicker 4
         .not-found.col-lg-2.col-md-12 
-        span.flicker P 
-        span.off a
-        span ge 
-        span not 
-        span.off f 
-        span.flicker1 o 
-        span.flicker3 u 
-        span n 
-        -for (var i = 0; i< 10; i++)(
-            div(class="fog" + i)
-        -)
+          span.flicker P 
+          span.off a
+          span g 
+          span e 
+          span.off f 
+          span.flicker1 o 
+          span.flicker3 u 
+          span n 
+        - for (var i = 1; i <= 8; i++)
+          div(class="fog" + i)
         //.not-found Page not found

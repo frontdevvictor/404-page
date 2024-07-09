@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+
 .not-found, .four0four {
     font-family: 'Comfortaa';
 }
@@ -86,8 +87,8 @@ body {
 }
 
 @keyframes flickr {
-   0% {
-        color: rgba(50, 50, 50, 0.25px);
+    0% {
+        color: rgba(50, 50, 50, 0.25);
         border: none;
         text-shadow: none;
     }
@@ -125,7 +126,7 @@ body {
     }
     14% {
         color: white;
-        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 120, 0.9), 0 0 70px #c896fa;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
     }
     53% {
         color: white;
@@ -159,6 +160,7 @@ body {
         text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
     }
 }
+
 .fog8, .fog7, .fog6, .fog5, .fog4, .fog3, .fog2, .fog1 {
     position: absolute;
     border: none;
@@ -309,6 +311,7 @@ body {
         left: 25%;
     }
 }
+
 @media (max-width: 991px) {
     .container {
         margin-top: 30vh;
