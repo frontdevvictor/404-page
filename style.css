@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400,700");
+.not-found, .four0four {
+    font-family: 'Confortaa';
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    background: #121428;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.container {
+    align-items: center;
+    margin: auto;
+}
+
+.row {
+    margin-top: 30vh;
+    height: 200px;
+    min-width: 300px;
+}
+
+.four0four {
+    color: white;
+    text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    color: white;
+    margin-top: -67px;
+    font-size: 15em;
+    text-align: right;
+    min-width: 450px;
+    z-index: 5;
+}
+.four0four::before {
+    content: "404";
+    position: absolute;
+    color: #ff78fa;
+    mix-blend-mode: color-dodge;
+    z-index: 1;
+}
+
+.not-found {
+    color: white;
+    text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    line-height: 110%;
+    font-size: 3.75em;
+}
+.not-found::before {
+    letter-spacing: 0.25px;
+    content: "Page not found";
+    position: absolute;
+    color: #ff78fa;
+    mix-blend-mode: color-dodge;
+    z-index: 1;
+}
+
+.flicker1 {
+    animation: 5s linear 3.25s flickr infinite;
+}
+
+.flicker2 {
+    animation: 5s linear 1.25s flickr infinite;
+}
+
+.flicker3 {
+    animation: 5s ease 1s flickr infinite;
+}
+
+.flicker4 {
+    animation: 5s ease 2s flickr infinite;
+}
+
+.off {
+    color: rgba(50, 50, 50, 0.25);
+    border: none;
+    text-shadow: none;
+}
+
+@keyframes flickr {
+   0% {
+        color: rgba(50, 50, 50, 0.25px);
+        border: none;
+        text-shadow: none;
+    }
+    1% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    2% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    8% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    10% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    11% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    12% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    13% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    14% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 120, 0.9), 0 0 70px #c896fa;
+    }
+    53% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    54% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    58% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    59% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    60% {
+        color: rgba(50, 50, 50, 0.25);
+        border: none;
+        text-shadow: none;
+    }
+    61% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+    100% {
+        color: white;
+        text-shadow: 0 0 1px rgba(255, 120, 250, 0.2), 0 0 2px rgba(200, 150, 250, 0.9), 0 0 70px #c896fa;
+    }
+}
+.fog8, .fog7, .fog6, .fog5, .fog4, .fog3, .fog2, .fog1 {
+    position: absolute;
+    border: none;
+    border-radius: 100%;
+    z-index: 400;
+}
